@@ -21,7 +21,7 @@ public class BeanTest4 {
 	private Cuckoo Cuckoo;
 	
 	@Autowired
-	@Qualifier("Cuckoo1")
+	@Qualifier("Cu`ckoo1")
 	private Cuckoo Cuckoo1;
 	//测试通过配置文件装配Bean
 	@Test
